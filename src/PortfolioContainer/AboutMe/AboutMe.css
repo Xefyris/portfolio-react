@@ -1,0 +1,69 @@
+.aboutMe-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 10%;
+  min-height: fit-content;
+  margin: 0 0 50px 0;
+}
+.aboutMe-parent {
+  font-family: "Poppins Regular";
+  display: flex;
+  flex-direction: column;
+}
+.aboutMe-title1 {
+  font-family: "Poppins Bold";
+  font-size: 32px;
+  color: rgb(17, 7, 44);
+}
+.aboutMe-title2 {
+  font-family: "Poppins Regular";
+  font-size: 12px;
+  color: black;
+}
+.aboutMe-separator-blob {
+  height: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.aboutMe-separator-blob div {
+  width: 35px;
+  border-radius: 10px;
+  background-color: var(--dark-orange);
+}
+.aboutMe-content {
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+  width: 800px;
+  box-shadow: 0 0 20px -2px #1f2235;
+}
+.aboutMe-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: 25%;
+  background-image: url('../../assets/AboutMe/Image/me.png');
+}
+
+.aboutMe-text {
+  width: 75%;
+}
+
+.aboutMe-text .aboutMe-introduction {
+  text-align: left;
+  margin: 8% 8% 8%;
+  color: black;
+  font-size: 12px;
+}
+
+.aboutMe-text .aboutMe-highlights {
+  text-align: left;
+  margin: 5% 5% 5%;
+  color: black;
+  font-size: 12px;
+}
