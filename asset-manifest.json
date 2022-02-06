@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.56c91a49.css",
-    "main.js": "/portfolio-react/static/js/main.c57617a9.js",
+    "main.css": "/portfolio-react/static/css/main.4f779d9d.css",
+    "main.js": "/portfolio-react/static/js/main.890cd475.js",
     "static/js/787.9b9c0edf.chunk.js": "/portfolio-react/static/js/787.9b9c0edf.chunk.js",
     "static/media/profilephoto.PNG": "/portfolio-react/static/media/profilephoto.a7b99fd435529a5e6c72.PNG",
     "static/media/me.png": "/portfolio-react/static/media/me.ef1d6e04b977904331dc.png",
@@ -14,12 +14,12 @@
     "static/media/Poppins-ExtraBold.ttf": "/portfolio-react/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
     "static/media/bg.jpg": "/portfolio-react/static/media/bg.d580cd375921d13ae60d.jpg",
     "index.html": "/portfolio-react/index.html",
-    "main.56c91a49.css.map": "/portfolio-react/static/css/main.56c91a49.css.map",
-    "main.c57617a9.js.map": "/portfolio-react/static/js/main.c57617a9.js.map",
+    "main.4f779d9d.css.map": "/portfolio-react/static/css/main.4f779d9d.css.map",
+    "main.890cd475.js.map": "/portfolio-react/static/js/main.890cd475.js.map",
     "787.9b9c0edf.chunk.js.map": "/portfolio-react/static/js/787.9b9c0edf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56c91a49.css",
-    "static/js/main.c57617a9.js"
+    "static/css/main.4f779d9d.css",
+    "static/js/main.890cd475.js"
   ]
 }
