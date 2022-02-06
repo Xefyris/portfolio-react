@@ -63,7 +63,25 @@
 
 .aboutMe-text .aboutMe-highlights {
   text-align: left;
-  margin: 5% 5% 5%;
+  margin: 8% 8% 8%;
   color: black;
   font-size: 12px;
+}
+
+.aboutMe-highlight-text{
+  margin-top: 2%;
+}
+
+.aboutMe-highlight-blob{
+  height: 10px;
+  width: 10px;
+  margin: 0 10px 0 0;
+  background-color: #ff5823;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.aboutMe-highlight-blob span{
+  display: inline-block;
 }

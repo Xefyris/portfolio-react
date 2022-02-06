@@ -29,7 +29,7 @@ export default function Profile() {
           <div className="profile-details-name">
             <span className="primary-test">
               Hello, my name is{" "}
-              <span className="highlighted-text"> Ngoc-Lan Tran</span>
+              <span className="highlighted-text"> Ngoc-Lan TRAN</span>
             </span>
           </div>
           <div className="profile-details-role">
@@ -42,11 +42,9 @@ export default function Profile() {
                   steps={[
                     "Ethusiastic Dev 🐦",
                     1000,
-                    "Full Stack Developer 🧾",
+                    "Java Developer 🧾",
                     1000,
-                    "MERN Stack Dev ❤️",
-                    1000,
-                    "Cross platform Dev 👍",
+                    "Back End Developer ❤️",
                     1000,
                     "React/React Native Dev 😒",
                     1000,

@@ -17,22 +17,28 @@ export default function AboutMe() {
           <div className="aboutMe-text">
             <div className="aboutMe-introduction">
               <span className="aboutMe-introduction-text">
-                Full stack web and mobile developer with background knowledge of
-                MERN stacks with redux, along with a knack of building
-                applications with utmost efficiency. Strong professional with a
-                BSC willing to be an asset for an organization.
+              Experienced and ambitious Java Developer that has a solid grasp on web services development and complex application development.
+              Providing technical expertise in programming analysis, application analysis and design during different projects.
+              Excellent team player with good knowledge of development tool and languages.
               </span>
             </div>
-
             <div className="aboutMe-highlights">
-              <span className="aboutMe-highlights-text">
                 <span>Here are a Few Highlights:</span>
-
-                <ul>
-                  <li>test</li>
-                  <li>test1</li>
-                </ul>
-              </span>
+                <div class="aboutMe-highlight-text">
+                  <div class="aboutMe-highlight-blob"></div><span>Java Developer</span>    
+                </div>     
+                <div class="aboutMe-highlight-text">
+                  <div class="aboutMe-highlight-blob"></div><span>Backend Developer</span>  
+                </div>  
+                <div class="aboutMe-highlight-text">
+                  <div class="aboutMe-highlight-blob"></div><span>Functional Analyst</span>  
+                </div>     
+                <div class="aboutMe-highlight-text">
+                  <div class="aboutMe-highlight-blob"></div><span>Building REST API</span>   
+                </div> 
+                <div class="aboutMe-highlight-text">
+                  <div class="aboutMe-highlight-blob"></div><span>Managing database</span> 
+                </div>                 
             </div>
           </div>
         </div>
