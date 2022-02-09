@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.4f779d9d.css",
-    "main.js": "/portfolio-react/static/js/main.890cd475.js",
+    "main.css": "/portfolio-react/static/css/main.c49a25ee.css",
+    "main.js": "/portfolio-react/static/js/main.f09c444c.js",
     "static/js/787.9b9c0edf.chunk.js": "/portfolio-react/static/js/787.9b9c0edf.chunk.js",
     "static/media/profilephoto.PNG": "/portfolio-react/static/media/profilephoto.a7b99fd435529a5e6c72.PNG",
     "static/media/me.png": "/portfolio-react/static/media/me.ef1d6e04b977904331dc.png",
@@ -14,12 +14,17 @@
     "static/media/Poppins-ExtraBold.ttf": "/portfolio-react/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
     "static/media/bg.jpg": "/portfolio-react/static/media/bg.d580cd375921d13ae60d.jpg",
     "index.html": "/portfolio-react/index.html",
-    "main.4f779d9d.css.map": "/portfolio-react/static/css/main.4f779d9d.css.map",
-    "main.890cd475.js.map": "/portfolio-react/static/js/main.890cd475.js.map",
+    "static/media/programming-skills.svg": "/portfolio-react/static/media/programming-skills.d19983a9bee884277ffa4156796bcc0c.svg",
+    "static/media/projects.svg": "/portfolio-react/static/media/projects.2b352a52b0588dab62f56a7d1c1e436d.svg",
+    "static/media/interests.svg": "/portfolio-react/static/media/interests.809890a3e4fb0938f61bb8a6c34a6940.svg",
+    "static/media/education.svg": "/portfolio-react/static/media/education.10cfa28a40119ebd70cf4fb33fd5934e.svg",
+    "static/media/work-history.svg": "/portfolio-react/static/media/work-history.a566475dedb99dea4bb8b9115798b2a3.svg",
+    "main.c49a25ee.css.map": "/portfolio-react/static/css/main.c49a25ee.css.map",
+    "main.f09c444c.js.map": "/portfolio-react/static/js/main.f09c444c.js.map",
     "787.9b9c0edf.chunk.js.map": "/portfolio-react/static/js/787.9b9c0edf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f779d9d.css",
-    "static/js/main.890cd475.js"
+    "static/css/main.c49a25ee.css",
+    "static/js/main.f09c444c.js"
   ]
 }
