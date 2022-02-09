@@ -38,8 +38,8 @@
 .aboutMe-content {
   display: flex;
   flex-direction: row;
-  height: 600px;
-  width: 800px;
+  height: 500px;
+  width: 1000px;
   box-shadow: 0 0 20px -2px #1f2235;
 }
 .aboutMe-image {
