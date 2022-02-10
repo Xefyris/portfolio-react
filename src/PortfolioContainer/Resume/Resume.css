@@ -71,3 +71,8 @@
     flex-grow: 1;
     overflow: hidden;
 }
+
+.resume-bullets-details div{
+    height: 355px;
+    scroll-margin-top: 20px;
+}
