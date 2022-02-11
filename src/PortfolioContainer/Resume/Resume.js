@@ -2,20 +2,23 @@ import React, { Component, createRef } from 'react';
 import './Resume.css';
 
 export default class Resume extends Component {
-
-  scrollDiv = createRef();
-
-  educationRef = createRef();
-  workHistoryRef = createRef();
-  projectsRef = createRef();
-  programmingSkillsRef = createRef();
-  interestsRef = createRef();
+  constructor(){
+    super();
+    this.educationRef = createRef();
+    this.focusRef = createRef();
+    this.workHistoryRef = createRef();
+    this.projectsRef = createRef();
+    this.programmingSkillsRef = createRef();
+    this.interestsRef = createRef();
+  }
 
   scrollSmoothHandler = (scrollDiv) => {
     scrollDiv.current.scrollIntoView({ behavior: "smooth" });
   };
 
-  
+  componentDidMount() {
+    this.focusRef.current.focus();
+  }
 
   render() {
     return (
@@ -28,6 +31,7 @@ export default class Resume extends Component {
                 <div className="bullets-icons"></div>
                 <div className="bullets">
                   <div
+                    ref={this.focusRef}
                     className="bullet"
                     tabindex="1"
                     onClick={() => this.scrollSmoothHandler(this.educationRef)}
