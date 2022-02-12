@@ -4,20 +4,44 @@ import './Resume.css';
 export default class Resume extends Component {
   constructor(){
     super();
+    //class to add style when the bullet is selected
+    this.selectedBullet = "selected-bullet";
+
+    // references for styling when selected
+    this.educationBulletRef = createRef();
+    this.workHistoryBulletRef = createRef();
+    this.projectsBulletRef = createRef();
+    this.programmingSkillsBulletRef = createRef();
+    this.interestsBulletRef = createRef();
+
+    // references to jump to div when element is selected
     this.educationRef = createRef();
-    this.focusRef = createRef();
     this.workHistoryRef = createRef();
     this.projectsRef = createRef();
     this.programmingSkillsRef = createRef();
     this.interestsRef = createRef();
   }
 
-  scrollSmoothHandler = (scrollDiv) => {
+  scrollSmoothHandler = (bulletRef, scrollDiv) => {
+
+    // remove any existing selected bullet
+    this.educationBulletRef.current.classList.remove(this.selectedBullet);
+    this.workHistoryBulletRef.current.classList.remove(this.selectedBullet);
+    this.projectsBulletRef.current.classList.remove(this.selectedBullet);
+    this.programmingSkillsBulletRef.current.classList.remove(this.selectedBullet);
+    this.interestsBulletRef.current.classList.remove(this.selectedBullet);
+
+    // add property bullet focused on selected bullet
+    bulletRef.current.classList.add(this.selectedBullet)
+
+    // scroll to the div containing details of the bullet
     scrollDiv.current.scrollIntoView({ behavior: "smooth" });
   };
 
+  // this method is used on loading the component for the first time
+  // add class to selected bullet
   componentDidMount() {
-    this.focusRef.current.focus();
+    this.educationBulletRef.current.classList.add(this.selectedBullet);
   }
 
   render() {
@@ -31,10 +55,10 @@ export default class Resume extends Component {
                 <div className="bullets-icons"></div>
                 <div className="bullets">
                   <div
-                    ref={this.focusRef}
+                    ref={this.educationBulletRef}
                     className="bullet"
-                    tabindex="1"
-                    onClick={() => this.scrollSmoothHandler(this.educationRef)}
+                    tabIndex="1"
+                    onClick={() => this.scrollSmoothHandler(this.educationBulletRef, this.educationRef)}
                   >
                     <img
                       className="bullet-logo"
@@ -46,10 +70,11 @@ export default class Resume extends Component {
                     <span> Education</span>
                   </div>
                   <div
+                    ref={this.workHistoryBulletRef}
                     className="bullet"
-                    tabindex="2"
+                    tabIndex="2"
                     onClick={() =>
-                      this.scrollSmoothHandler(this.workHistoryRef)
+                      this.scrollSmoothHandler(this.workHistoryBulletRef, this.workHistoryRef)
                     }
                   >
                     <img
@@ -62,9 +87,10 @@ export default class Resume extends Component {
                     <span> Work History</span>
                   </div>
                   <div
+                    ref={this.projectsBulletRef}
                     className="bullet"
-                    tabindex="3"
-                    onClick={() => this.scrollSmoothHandler(this.projectsRef)}
+                    tabIndex="3"
+                    onClick={() => this.scrollSmoothHandler(this.projectsBulletRef, this.projectsRef)}
                   >
                     <img
                       className="bullet-logo"
@@ -74,10 +100,11 @@ export default class Resume extends Component {
                     <span> Projects</span>
                   </div>
                   <div
+                    ref={this.programmingSkillsBulletRef}
                     className="bullet"
-                    tabindex="4"
+                    tabIndex="4"
                     onClick={() =>
-                      this.scrollSmoothHandler(this.programmingSkillsRef)
+                      this.scrollSmoothHandler(this.programmingSkillsBulletRef, this.programmingSkillsRef)
                     }
                   >
                     <img
@@ -91,9 +118,10 @@ export default class Resume extends Component {
                     <span> Programmin Skills</span>
                   </div>
                   <div
+                    ref={this.interestsBulletRef}
                     className="bullet"
-                    tabindex="4"
-                    onClick={() => this.scrollSmoothHandler(this.interestsRef)}
+                    tabIndex="5"
+                    onClick={() => this.scrollSmoothHandler(this.interestsBulletRef, this.interestsRef)}
                   >
                     <img
                       className="bullet-logo"

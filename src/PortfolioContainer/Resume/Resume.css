@@ -59,11 +59,18 @@
     padding: 0 10px;
     cursor: pointer;
     border-radius: 20px;
+    width: 30px; 
+    background-color: #1f2235;
+    transition: width .6s ease; 
 }
 
-.bullet:focus{
-    background-color: #1f2235;
+.bullet span{
+    white-space: nowrap;
+}
+
+.selected-bullet{
     color: white;
+    width: 100%;
 }
 
 .resume-bullets-details{
@@ -75,4 +82,6 @@
 .resume-bullets-details div{
     height: 355px;
     scroll-margin-top: 20px;
+    padding-left: 30px;
+    text-align: start;
 }
