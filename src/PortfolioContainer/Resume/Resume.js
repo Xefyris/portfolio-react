@@ -48,7 +48,10 @@ export default class Resume extends Component {
     return (
       <div className="resume-container">
         <div className="resume-content">
-          <div className="resume-header">RESUME</div>
+          <div className="resume-header">
+            <div className = "resume-title1"> Resume </div> <br />
+            <div className = "resume-title2">My formal Bio Details</div> <br />
+          </div>
           <div className="resume-card">
             <div className="resume-bullets">
               <div className="resume-bullets-container">

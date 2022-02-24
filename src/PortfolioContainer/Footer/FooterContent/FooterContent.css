@@ -1,0 +1,11 @@
+.footer-content-parent{
+    height: 200px;
+}
+.footer-content-text{
+    height: inherit;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    color: white;
+
+}

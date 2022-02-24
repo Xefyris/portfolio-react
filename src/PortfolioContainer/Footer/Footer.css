@@ -1,9 +1,9 @@
-.home-container{
+.footer-container{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     min-height: 390px;
-    background-image: url("../../assets//Home/bg.jpg");
+    background-image: url("../../assets/Home/bg.jpg");
     background-position: center;
     background-size: 100%;
 }

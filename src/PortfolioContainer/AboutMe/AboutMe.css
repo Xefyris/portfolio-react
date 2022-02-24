@@ -16,11 +16,14 @@
   font-family: "Poppins Bold";
   font-size: 32px;
   color: rgb(17, 7, 44);
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 .aboutMe-title2 {
   font-family: "Poppins Regular";
   font-size: 12px;
   color: black;
+  margin-bottom: 30px;
 }
 .aboutMe-separator-blob {
   height: 10px;

@@ -5,6 +5,19 @@
     justify-content: center;
     min-height: fit-content;
     scroll-behavior: smooth;
+    margin-bottom: 100px;
+}
+
+.resume-title1 {
+    font-family: "Poppins Bold";
+    font-size: 32px;
+    color: rgb(17, 7, 44);
+}
+
+.resume-title2 {
+    font-family: "Poppins Regular";
+    font-size: 12px;
+    color: black;
 }
 
 .resume-card{
